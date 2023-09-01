@@ -1,0 +1,1 @@
+These files contain examples of group-based game development projects I have been a part of. In both projects, I was in charge of developing the grand majority of the code itself whilst my group members worked more on design elements such as level design and asset creation. Both projects were created in Unreal Engine 4.26.
