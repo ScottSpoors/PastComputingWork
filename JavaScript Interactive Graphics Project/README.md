@@ -1,0 +1,1 @@
+This project required the use of the THREE.js JavaScript library, along with various other library functions and JavaScript code, with which I was tasked to create a procedurally generated, 3D interactive graphical scene.
