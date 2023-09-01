@@ -1,0 +1,5 @@
+This is my most recent group game development project at the time of writing, where myself and a team of 4 others were tasked by a client to develop a puzzle game demo/concept focused around the concepts of Turing Machines, where the player utilises a series of on screen buttons to input commands to an in-game robot in attempt to solve puzzles in a similar manner to how a Turing Machine would process problems. 
+
+For this game project I was responsible for the creation of the Interaction Programming, therefore in charge of development of the code to manage player input into the game. I did complete this task, however a number of other group members did not complete their alloted programming tasks in the game so I wound up in charge of the development of all code in the game other than the code to handle the music playback.
+
+We were only given approximately 4 weeks to complete this demo and as I was left responsible for the grand majority of the in-game code it did not turn out as polished as I would have liked, but given the major restraints the client was still greatly satisfied with the concept demo that we delivered.
