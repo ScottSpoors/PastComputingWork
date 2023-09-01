@@ -1,0 +1,1 @@
+These folders contain examples of prior game design/development projects I have participated in.
