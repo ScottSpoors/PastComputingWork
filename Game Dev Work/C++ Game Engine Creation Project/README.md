@@ -1,0 +1,1 @@
+This project involved the creation of a bespoke C++ game engine utilising a basic skeleton code provided for the purposes of this assignment by the lecturer, and then to build a simple game demo within it to showcase the various features you implemented into the engine.
