@@ -1,0 +1,3 @@
+This file contains the design documentation for a fantasy Role Playing Game concept created for an assignment by myself and two others, known as 'Champions of Ewa'. I was directly in charge of developing the ideas for the game world and the environment of this, but I also contributed large amounts to developing the concept for the plot of the game as well as fleshing out the lore and world-building of this concept world. 
+
+I completely fell in love with this project as it was an excellent opportunity for me to showcase my more creative skills in the designing side of the development cycle, rather than focusing on code development for a change, and my story and world-building elements were received with great praise upon submission.
