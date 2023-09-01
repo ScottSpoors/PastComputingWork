@@ -1,0 +1,1 @@
+This folder contains the code for a project I was assigned to develop a concept of an online holiday booking website, including SQL database management and various interactive elements across multiple site pages.

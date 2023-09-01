@@ -1,0 +1,1 @@
+This fodler contains examples of web application development focused projects, including code written in HTML, JavaScript, PHP, CSS, and SQL.

@@ -1,0 +1,651 @@
+/*sets the text in the header to the same colour as
+the logo image, and establishes the blue background used in various
+parts of the website alongside the thin black borders*/
+header{
+	background-color:#2B7089;
+	border:thin solid black;
+	color:#f4c624;
+}
+
+/*Disables the extra heading text on mobile so the top of the 
+screen is not too cluttered*/
+header h1{
+	display:none;
+}
+/*center aligns the logo image and sets its scale on the page*/
+header img{
+	width:auto;
+	height:auto;
+	max-height:200%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Display all nav links in a row and places borders around the area*/
+nav{
+	display:flex;
+	flex-direction:row;
+	background-color:#C5CBCE;
+	border-left:thin solid black;
+	border-right:thin solid black;
+	border-bottom:thin solid black;
+	padding:2%;
+}
+
+/*sets colour, background colour, font size, text alignment, border,
+decoration and padding for each link button in the nav area*/
+nav a{
+	text-align:center;
+	border:thin solid black;
+	color:white;
+	background-color:#2B7089;
+	text-decoration:none;
+	padding-top:10%;
+	padding-bottom:10%;
+	font-size:x-large;
+}
+
+/*sets a nav button's background colour to orange if
+the mouse is currently hovering over it*/
+nav a:hover{
+	background-color:orange;
+}
+
+/*sets the fonts used by all text elements within the body tags
+in each page*/
+body{
+	font-family: arial, verdana, sans-serif;
+}
+
+/*sets the border and grey background colour for the 
+'Top Destinations' section of the homepage*/
+.destinations
+{
+	border:thin solid black;
+	border-top:none;
+	background-color:#C5CBCE;
+	margin-bottom:3%;
+}
+
+/*sets the main heading of the 'Top Destinations' section to white
+with a blue background and thin black border*/
+.destinations h2{
+	border-top:thin solid black;
+	border-bottom:thin solid black;
+	background-color:#2B7089;
+	color:white;
+	padding:1%;
+}
+
+/*sets the border and grey background colour for the news
+section of the homepage*/
+.homepage main {
+	border:thin solid black;
+	border-top:none;
+	background-color:#C5CBCE;
+}
+
+/*sets the main heading of the news section to white
+with a blue background and thin black border*/
+.homepage main h2{
+	background-color:#2B7089;
+	border-bottom:thin solid black;
+	border-top:thin solid black;
+	color:white;
+}
+
+/*sets the main text body of the news section to white 
+and adds appropriate padding*/ 
+.news p{
+	padding-left:1%;
+	padding-right:1%;
+	color:white;
+}
+
+/*sets the border on the main body of the news section
+and adds the blue background*/
+.news{
+	border:thin solid black;
+	border-top:none;
+	margin:2%;
+	background-color:#2B7089;
+}
+
+/*sets the secondary heading of the news section to black
+with an orange background*/
+.news h3{
+	padding:1%;
+	border-left:none;
+	border-right:none;
+	border-top:thin solid black;
+	border-bottom:thin solid black;
+	color:black;
+	background-color:orange;
+}
+
+/*sets the blue background and white text colour for the footer*/
+footer{
+	background-color:#2B7089;
+	border:thin solid black;
+	color:white;
+	padding:1%;
+}
+
+/*sets the border and blue background colour for the reviews section
+of the homepage*/
+.homepage aside{
+	background-color:#2B7089;
+	border:thin solid black;
+	color:white;
+	margin-bottom:3%;
+}
+
+/*sets the text alignment and blue background colour for the main
+heading of the homepage reviews section*/
+.homepage aside h2{
+	text-align:center;
+	border-bottom:thin solid black;
+	background-color:#2B7089;
+}
+
+/*sets the size, alignment and border of the customer images in
+the review section of the homepage*/
+.homepage aside img{
+	max-width:20%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border:thin solid black;
+}
+
+/*sets the alignment, border, and background colour for the main 
+body of the customer reviews in the review section of the homepage*/
+.homepage aside p{
+	margin-left:4%;
+	margin-right:4%;
+	padding-left:5%;
+	padding-right:5%;
+	border:thin solid black;
+	background-color:#2B7089;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+/*sets the orange background, black border, and text alignment
+for the individual review headings in the review section
+of the homepage*/
+.homepage aside article h3
+{
+	text-align:center;
+	border:thin solid black;
+	background-color:orange;
+	margin-left:2%;
+	margin-right:2%;
+	color:black;
+}
+
+/*sets the border and grey background colour for each review 
+in the review section of the homepage*/
+.homepage aside article{
+	margin:4%;
+	border:thin solid black;
+	background-color:#C5CBCE;
+}
+
+/*sets the orange background, black border, and text position
+for the introduction section of the homepage*/
+.intro{
+	background-color:orange;
+	border:thin solid black;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+/*sets the indentation of the paragraphs in the introduction
+section of the homepage*/
+.intro p{
+	margin:2%;
+}
+
+/*sets the grey background for the 'Top Destinations' section
+of the homepage and sets the 3 top destination entries to be
+presented in a column*/
+.destinations .places{
+	display:flex;
+	flex-direction:column;
+	background-color:#C5CBCE;
+	padding:1%;
+}
+
+/*sets the blue background, black border and padding for each
+holiday entry in the 'Top Destinations' section of the homepage*/
+.aplace{
+	border:thin solid black;
+	background-color:#2B7089;
+	padding-left:2%;
+	padding-right:2%;
+	padding-bottom:2%;
+	margin:3%;
+}
+
+/*sets the orange background, black border, and text alignment
+for the heading of each holiday entry in the 'Top Destinations'
+section in the homepage*/
+.aplace h3{
+	border:thin solid black;
+	background-color:orange;
+	padding:1%;
+	text-align:center;
+	color:black;
+}
+
+/*sets the size and alignment for the images in the holiday entries
+in the 'Top Destinations' section in the homepage*/
+.aplace img{
+	max-width:200px;
+	height:auto;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border:thin solid black;
+}
+
+/*sets the background colour, text colour and single border thickness
+for the table in the 'View Holidays' page*/
+.viewpage table{
+	border-collapse:collapse;
+	background-color:#2B7089;
+	color:white;
+	margin-bottom:2%;
+}
+
+/*sets the border for each individual element within the table 
+in the 'View Holidays' page*/
+.viewpage table, th, td{
+  border: 1px solid black;
+}
+
+/*sets padding for the holidays displayed in the table in the 
+'View Holidays' page*/
+.viewpage td{
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+}
+
+/*sets the orange background, black text, bold font, and padding
+for the column headings in the table in the 'View Holidays' page*/
+.viewpage table th{
+	background-color:orange;
+	color:black;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-weight:bold;
+}
+
+/*sets the blue background, black border, and white text for the
+main heading of the 'View Holidays' page*/
+.viewpage h2{
+	border:thin solid black;
+	background-color:#2B7089;
+	color:white;
+}
+
+/*sets the grey background colour for the entire 'View Holidays' page*/
+.viewpage{
+	background-color:#C5CBCE;
+}
+
+/*sets the grey background colour for the entire 'Admin' page*/
+.admin{
+	background-color:#C5CBCE;
+}
+
+/*sets the blue background, white text, and black border for the
+main heading of the 'Admin' page*/
+.admin h2{
+	border:thin solid black;
+	color:white;
+	background-color:#2B7089;
+}
+
+/*sets the grey background colour for the entire 'Credits' page*/
+.credits{
+	background-color:#C5CBCE;
+}
+
+/*sets the white text, blue background, and black border for the
+main headings of the 'Credits' page*/
+.credits h2{
+	background-color:#2B7089;
+	border:thin solid black;
+	color:white;
+}
+
+/*sets the orange background, black border, and black text in the
+subheadings of the 'Credits' page*/
+.credits h3, h4{
+	background-color:orange;
+	border:thin solid black;
+	color:black;
+}
+
+/*sets the blue background, white text, and black border
+for paragraphs on the page that displays after a new holiday is 
+added using form on the 'Admin' page*/
+.result p{
+	background-color:#2B7089;
+	border:thin solid black;
+	color:white;
+}
+
+/*prevents the footer on this page from having a second,
+unnecessary border*/
+.result footer p{
+	border:none;
+}
+
+/*sets the blue background colour, black border, and white text for
+the main heading of the page that is displayed after a new holiday
+is added using the form on the 'Admin' page*/
+.result h2{
+	background-color:#2B7089;
+	border:thin solid black;
+	color:white;
+}
+
+/*sets all the elements in the form on the 'Admin' page to be 
+displayed in a column in the mobile view*/
+.admin div{
+	display:flex;
+	flex-direction:column;
+}
+
+/*sets the alignment, orange background, font size, font weight,
+margin, and black border for the labels for each of the form elements
+in the form on the 'Admin' page*/ 
+.admin label{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:75%;
+	font-size:x-large;
+	text-align:center;
+	margin-top:2%;
+	font-weight:bold;
+	border:thin solid black;
+	background-color:orange;
+	color:black;
+}
+
+/*sets all colour styling elements, text alignment, size, and weight,
+margin, black border, background colour, and input box size for 
+each of the input elements in the form on the 'Admin' page*/
+.admin .input{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:x-large;
+	margin-top:2%;
+	margin-bottom:2%;
+	width:75%;
+	height:200%;
+	padding-top:2%;
+	padding-bottom:2%;
+	background-color:#2B7089;
+	color:white;
+	border:thin solid black;
+}
+
+/*sets all styling elements for the 'Submit' button in the form
+in the 'Admin' page*/
+.admin .submit{
+	display:block;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:x-large;
+	margin-top:4%;
+	margin-bottom:2%;
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:6%;
+	padding-right:6%;
+	background-color:#2B7089;
+	color:white;
+	border:thin solid black;
+}
+
+/*sets the top margin of the footer on the 'Admin' page in order
+to position the footer further away from the form on the page*/
+.admin footer{
+	margin-top:4%;
+}
+
+/*increases the font size of the legend describing the form on 
+the 'Admin' page*/
+.admin legend{
+	font-size:x-large;
+}
+
+/*adds extra padding to the buttons in the nav section of the
+homepage to look more appropriate when viewed on a 
+slightly larger screen*/
+@media screen and (min-width:768px){
+	nav a{
+	padding-left:5%;
+	padding-right:5%;
+	}
+}
+
+/*This following part controls how the site will look different when viewed
+on a larger screen such as a laptop or desktop monitor*/
+@media screen and (min-width:1024px){
+	.gridContainer{
+	display:grid;
+	grid-template-rows:auto;
+	grid-template-columns:75% 25%;
+	grid-template-areas:
+		"header header"
+		"nav nav"
+		"intro reviews"
+		"main reviews"
+		"destination reviews"
+		"footer footer";
+	}
+	/*sets the header to be placed in the 'header' area of the grid*/
+	.homepage header{
+		grid-area:header;
+	}/*Any 'border:none' code in the following is to remove certain 
+	areas of borders on screen to ensure there are no clashing borders 
+	from different page areas on screen*/
+	
+	/*sets the introduction section of the homepage to be displayed
+	in the 'intro' area of the grid, and removes any mobile-specific
+	style to make it more desktop compatible*/
+	.intro{
+		grid-area:intro;
+		border-right:none;
+		border-top:none;
+		margin-top:0%;
+		margin-bottom:0%;
+	}
+	
+	/*sets the reviews section of the homepage to be displayed
+	in the 'reviews' area of the grid, and removes any mobile-specific
+	style to make it more desktop compatible*/
+	.homepage aside{
+		grid-area:reviews;
+		border-top:none;
+		border-bottom:none;
+		margin-bottom:0%;
+	}
+	
+	/*sets the footer section of the homepage to be displayed
+	in the 'footer' area of the grid*/
+	.homepage footer{
+		grid-area:footer;
+	}
+	
+	/*sets the news section of the homepage to be displayed
+	in the 'main' area of the grid, and removes any mobile-specific
+	style to make it more desktop compatible*/
+	.homepage main{
+		grid-area:main;
+		border-right:none;
+		border-bottom:none
+	}
+	
+	/*sets the 'Top Destinations' section of the homepage to be displayed
+	in the 'destination' area of the grid, and removes any mobile-specific
+	style to make it more desktop compatible*/
+	.destinations{
+		grid-area:destination;
+		border-right:none;
+		border-bottom:none;
+		margin-bottom:0%;
+	}
+	
+	/*sets the navidation section of the homepage to be displayed
+	in the 'nav' area of the grid*/
+	.homepage nav{
+		grid-area:nav;
+	}
+	
+	/*sets the entries in the 'Top Destinations' section of the homepage
+	to be displayed in a row in the desktop view*/
+	.destinations .places{
+		display:flex;
+		flex-direction:row;
+	}
+	
+	/*increases the size of the images of customers in the reviews
+	section of the homepage*/
+	.homepage aside img{
+		max-width:50%;
+	}
+	
+	/*sets the logo image to be displayed back in the top left corner
+	of the display rather than the top center*/
+	header img{
+		display:initial;
+	}
+	
+	/*alters the padding and font size of the nav buttons in the
+	nav section of the homepage to be more appropriate in a 
+	desktop view*/
+	nav a{
+	margin:1%;
+	padding-left:6%;
+	padding-right:6%;
+	padding-top:0%;
+	padding-bottom:0%;
+	font-size:medium;
+	}
+	
+	/*removes any mobile-specific padding in the nav section
+	of the homepage*/
+	nav{
+		padding:0%;
+	}
+	
+	/*ensures there is no padding between the entries in the
+	'Top Destinations' section in the homepage*/
+	.aplace{
+		margin:0%;
+	}
+	
+	/*ensures that the LCG logo and text are both presented in-line
+	in the header section of the homepage*/
+	header{
+		display:flex;
+		flex-direction:row;
+	}
+	
+	/*allows the header text to be displayed onscreen and adds 
+	appropriate padding for desktop view*/
+	header h1{
+		display:initial;
+		margin-top:4%;
+	}
+	
+	/*adds a margin for the labels in the form on the 'Admin' page
+	to be presented more appropriately in a desktop view*/
+	.admin label{
+	margin:2%;
+	}
+
+	/*sets the form on the 'Admin' page to be displayed in a grid*/
+	.admin div{
+		display:grid;
+		grid-template-columns:1fr 6fr;
+		grid-row-gap:10%;
+		grid-column-gap:1.5%;
+		padding-bottom:12%;
+		padding-top:1%;
+	}
+	
+	/*sets the label elements of the form on the 'Admin' page to 
+	be displayed in the left column of the grid, and sets margin,
+	padding, and font size/weight to more appropriate values for 
+	desktop view*/
+	.admin label{
+		display:initial;
+		grid-column:1/2;
+		font-size:medium;
+		font-weight:initial;
+		margin:0%;
+		margin-left:2%;
+		padding-left:6%;
+		padding-right:6%;
+	}
+	
+	/*sets the input fields of the form on the 'Admin' page to 
+	be displayed in the right column of the grid, and sets margin,
+	padding, and height/width to more appropriate values for 
+	desktop view*/
+	.admin .input{
+		display:initial;
+		margin:0%;
+		grid-column:2/3;
+		font-size:medium;
+		height:initial;
+		width:initial;
+		padding-top:0.25%;
+		padding-bottom:0.25%;
+		margin-right:2%;
+	}
+	
+	/*sets the 'Submit' button of the form on the 'Admin' page to 
+	be displayed in the both columns of the grid, and sets margin,
+	padding, and font size to more appropriate values for 
+	desktop view*/
+	.admin .submit{
+		grid-column:1/3;
+		display:initial;
+		margin:0%;
+		margin-top:2%;
+		padding-top:1%;
+		padding-bottom:1%;
+		padding-left:0%;
+		padding-right:0%;
+		font-size:medium;
+	}
+	
+	/*alters the font size of the legend of the form on the 'Admin'
+	page to be a more appropriate size for a desktop view*/
+	.admin legend{
+		font-size:large;
+	}
+}
+
+/*alters styling for certain elements when the site is viewed
+on a screen with a horizontal resolution of at least 1280 pixels*/
+@media screen and (min-width:1280px){
+	/*sets a spacing between the entries in the 'Top Destinations'
+	section of the homepage to look more appealing on a larger 
+	display*/
+	.aplace{
+		margin:2%;
+	}
+}

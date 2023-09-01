@@ -1,0 +1,1 @@
+In this project I was tasked with the creation of an interactive website for an online toy store, with use of JavaScript code to handle various elements of the website such as calculating order totals and consistently refreshing the latest available offers on the website home page.
